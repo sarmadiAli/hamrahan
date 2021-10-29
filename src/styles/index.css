@@ -3,146 +3,130 @@
    License: none (public domain)
 */
 
-
-
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Regular.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Regular.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Regular.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Regular.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Regular.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Regular.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Regular.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Bold.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Bold.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Bold.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Bold.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Bold.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Bold.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Black.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Black.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Black.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Black.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Black.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Black.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
+
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Medium.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Medium.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Medium.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Medium.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Medium.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Medium.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
+
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Light.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Light.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Light.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Light.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Light.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Light.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
+
 @font-face {
     font-family: Vazir;
     src: url('./../../node_modules/vazir-font/dist/Vazir-Thin.eot');
-    src: url('./../../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Thin.woff2') format('woff2'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Thin.woff') format('woff'),
-         url('./../../node_modules/vazir-font/dist/Vazir-Thin.ttf') format('truetype');
+    src: url('./../../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix') format('embedded-opentype'), url('./../../node_modules/vazir-font/dist/Vazir-Thin.woff2') format('woff2'), url('./../../node_modules/vazir-font/dist/Vazir-Thin.woff') format('woff'), url('./../../node_modules/vazir-font/dist/Vazir-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
-
-textarea:focus, input:focus{
+textarea:focus, input:focus {
     outline: none;
 }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: Vazir;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Vazir;
 }
 
 html, body, #root {
-	
-	width: 100%;
-	height: 100%;
-	direction: rtl;
-	overflow-y: auto;
-	overflow-x: hidden;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
 }
 
 /* HTML5 display-role reset for older browsers */
 
-
-
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .app {
-	border: 8px double #4b4747;
-	/* width: 90%; */
-	margin: auto;
+    border: 8px double #4b4747;
+    /* width: 90%; */
+    margin: auto;
 }
 
 /* ======================================= Header  style =============================== */
-.header{
+
+.header {
     width: 99%;
     margin: auto;
 }
-.headrTitle{
-	width: 90%;
+
+.headrTitle {
+    width: 90%;
 }
 
-.stdImage{
-	width: 10%;
+.stdImage {
+    width: 15%;
     border: 5px double;
     margin-top: 10px;
-    height: 150px;
-
+    height: 90px;
 }
+
 /* ======================================= StuData  style =============================== */
-.stuData{
+
+.stuData {
     margin: auto;
     padding: 7px;
     border: 3px solid;
     border-radius: 7px;
 }
-
 
 .dot {
     margin: 0 2px;
@@ -151,66 +135,107 @@ table {
     border-radius: 50%;
     display: inline-block;
     border: 1px solid;
-  }
+}
 
-.dotActive{
+.dotActive {
     background: red;
-    border:none;
-
+    border: none;
+}
+p{
+    font-size: 12px;
 }
 /* ======================================= print  style =============================== */
 
-  
-  @media print {
+@media print {
     html, body {
-      height: initial !important;
-      overflow: initial !important;
-      -webkit-print-color-adjust: exact;
-      
+        height: initial !important;
+        overflow: initial !important;
+        -webkit-print-color-adjust: exact;
     }
-  .stuData{
+    p{
+        font-size: 11px  !important;
+    }
+    .stuData {
+        font-size: 12px;
+    }
+    .btn1 {
+        width: 100px !important;;
       font-size: 12px;
-  }
-    .btn1{
-        width: 180px !important;
-        color:red
     }
-    .btn2{
-        width: 100px !important;  
-        color:red
+    .btn2 {
+        width: 100px !important;;
+      font-size: 12px;
+    }
+    .btn3 {
+        width: 80px !important;
+      font-size: 12px;
+    }
+    .btn4 {
+        width: 0px !important;
+      font-size: 12px;
+    }
+    .btn5 {
+        width: 50px !important;
+      font-size: 12px;
+    }
+    .btn6 {
+        width: 50px !important;
+      font-size: 12px;
+    }
+    .btn7 {
+        width: 50px !important;
+      font-size: 12px;
+    }
+    .btn8 {
+        width: 60px !important;
+      font-size: 12px;
+    }
+    .btn9 {
+        width: 60px !important;
+      font-size: 12px;
+    }
+    .btn10 {
+        width: 60px !important;
+      font-size: 12px;
+    }
+    .btn11 {
+        width: 240px !important;
+      font-size: 12px;
+    }
+    .btn12 {
+        width: 70px !important;
+      font-size: 12px;
+    }
+}
 
-    }
-    .btn3{
-        width: 160px !important
-    }
-    .btn4{
-        width: 100px !important
-    }
-    .btn5{
-        width: 50px !important
-    }
-    .btn6{
-        width: 50px !important
-    }
-    .btn7{
-        width: 50px !important
-    }
-    .btn8{
-        width: 100px !important
-    }
-    .btn9{
-        width: 60px !important
-    }
-    .btn10{
-        width: 70px !important
-    }
-    .btn11{
-        width: 390px !important
-    }
-    .btn12{
-        width: 100px !important
-    }
-  }
-  
+/* ======================================= Table  style =============================== */
 
-  
+.pDe {
+    display: flex;
+    transform: rotate( -90deg);
+    height: 100px;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    right: -58px;
+}
+tr{
+    /* height: 70px; */
+}
+th{
+    border: 1px solid;
+}
+td{
+    border: 1px solid;;
+    text-align: center;    
+    height: 100%;
+    /* line-height: 100px */
+}
+/* ======================================= Access  style =============================== */
+.access{
+    /* margin: auto; */
+    padding: 7px;
+    border: 3px solid;
+    border-radius: 7px;   
+}

@@ -4,6 +4,7 @@ import React , {useRef} from 'react'
 import Header from './components/Header'
 import StdData from './components/StdData'
 import { useReactToPrint } from 'react-to-print';
+import Accept from './components/Accept';
 
 function App(porps) {
   let refCompo = useRef()
@@ -16,12 +17,13 @@ function App(porps) {
     <>
       <button onClick={handlePrint}>Print this out!</button>
       <div ref={refCompo} className="p-2" >
-        <div className="app container">
+        <div className="app ">
           <Header />
           <br />
           <StdData />
+          <br />
+          <Accept />
 
-          <hr />
         </div>
       </div>
     </>
